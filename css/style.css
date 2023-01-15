@@ -32,7 +32,7 @@ header {
     color: rgba(255, 255, 255, 1);
     font-weight: 700;
     font-size: 16px;
-
+    border-radius: 15px;
     border: 0;
 }
 
@@ -198,6 +198,64 @@ header {
 
 
 /* our-features-section end */
+
+
+
+/* my-features-section */
+
+
+.my-features-section {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.my-rec-sec {
+    display: flex;
+    align-items: center;
+    gap: 73px;
+    margin-top: 85px;
+}
+
+.my-feature-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.my-feature-img img {
+    width: 342px;
+    height: 342px;
+    border-radius: 20px;
+}
+
+.my-content-img {
+    width: 537px;
+    border-radius: 10px;
+}
+
+.my-content-section {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+.my-content-section .first-con {
+    color: #727272;
+    font-weight: 500;
+}
+
+.my-content-section .sec-con {
+    color: #FF900E;
+}
+
+.my-content-des {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
 
 
 
@@ -598,6 +656,30 @@ header {
 
 .footer-part {
 	width: 100%;
+}
+
+
+/* new part in my pic section */
+
+.my-content-img {
+	width: 100%;
+    text-align: center;
+	
+}
+
+.my-features-section {
+	width: 100%;
+}
+
+.my-rec-sec {
+	display: flex;
+	flex-direction: column;
+}
+
+.my-feature-img {
+	
+	grid-template-columns: repeat(1, 1fr);
+	
 }
 
     
