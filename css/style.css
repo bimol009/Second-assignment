@@ -389,7 +389,7 @@ header {
 
 
 
-/* footer-secton */
+/* footer-section */
 
 .footer-part {
     width: 1440px;
@@ -407,4 +407,198 @@ header {
     color: #424242;
     padding: 39px 0;
     margin-bottom: 216px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Media query breakpoints mobile device */
+
+
+@media screen and (max-width:576px) {
+
+   /* nav section */
+
+   .nav-section {
+    display: flex;
+    flex-direction: column;
+   
+    width: 100%;
+}
+
+.menu-sec {
+    margin-top: 20px;
+}
+
+.menu-sec ul li {
+    display: inline;
+    list-style: none;
+    margin-right: 20px;
+}
+
+/* Brand new part */
+
+.brand-new-part {
+	width: 100%;
+	text-align: center;
+}
+
+.section-title {
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 56px;
+	
+}
+
+.brand-des {
+	
+	font-size: 15px;
+	
+}
+
+.thumbnail img {
+	
+	margin-bottom: 40px;
+	width: 100%;
+}
+
+
+/* our-features-section */
+
+.our-features-section {
+	
+	width: 100%;
+}
+
+.img-features-sec {
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.feature-img {
+	
+	grid-template-columns: repeat(1, 1fr);
+	
+}
+
+.feature-img img {
+	width: 100%;
+
+}
+
+.img-content {
+	width: 100%;
+    text-align: center;
+}
+
+
+/* Features-experience-section Start */
+
+.feature-details {
+	/* width: 586px; */
+    width: 100%;
+}
+
+.feature-experience {
+	width: 100%;
+	text-align: center;
+}
+
+
+
+
+
+.feature-container {
+	width: 100%;
+	text-align: center;
+    padding: 0;
+	
+}
+
+
+
+.container-des {
+	
+	font-size: 15px;
+	line-height: 20px;
+	
+	margin-bottom: 10px;
+}
+
+.feature-experience-img-part {
+	width: 100%;
+}
+
+.feature-experience-sec {
+	display: flex;
+	flex-direction: column;
+}
+
+.some-facts-part {
+	width: 100%;
+	
+}
+
+.feature-image-part {
+	width: 100%;
+}
+
+.feature-image-part img {
+	width: 100%;
+}
+
+.primary-btn-3 {
+	left: 0%;
+	top: 50%;
+}
+
+.some-facts-part {
+	width: 100%;
+	text-align: center;
+    margin-top: 0;
+}
+
+/* bos icon part */
+
+.box-icon {
+	display: flex;
+	flex-direction: column;
+}
+
+.iconic-box-part {
+	
+	width: 100%;
+}
+
+.our-sponsor-part {
+	text-align: center;
+	width: 100%;
+}
+
+.our-sponsor-section {
+	width: 100%;
+}
+
+.sponsor-image {
+	display: flex;
+	flex-direction: column;
+	
+	align-items: center;
+}
+
+
+/* footer part */
+
+.footer-part {
+	width: 100%;
+}
+
+    
 }
